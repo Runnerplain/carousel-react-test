@@ -8,6 +8,7 @@ export default function IKProjectsCardsColumnBefore() {
         <IKProjectMiniCard />
         <IKProjectMiniCard />
         <IKProjectMiniCard />
+        <IKProjectMiniCard />
     </div>
   )
 }

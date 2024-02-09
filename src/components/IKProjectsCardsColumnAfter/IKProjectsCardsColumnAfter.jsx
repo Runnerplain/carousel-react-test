@@ -6,9 +6,6 @@ export default function IKProjectsCardsColumnAfter() {
   return (
     <div className='columnContainer'>
       <IKProjectMiniCard />
-      <IKProjectMiniCard />
-      <IKProjectMiniCard />
-      <IKProjectMiniCard />
     </div>
   )
 }
