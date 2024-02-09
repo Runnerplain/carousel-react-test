@@ -1,5 +1,5 @@
 .pictureContainer {
-    max-width: 260px;
+   width: clamp(144px, 15vw, 300px);
     height: auto;
     position: relative;
     line-height: 0;

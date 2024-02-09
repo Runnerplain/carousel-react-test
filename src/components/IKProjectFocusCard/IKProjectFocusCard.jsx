@@ -1,6 +1,9 @@
 import './IKProjectFocusCard.css'
 import picture2 from '../../assets/pictures/picture2.jpg'
 
+
+// Transition middle Card. Check Id in next column, take it and display it. After give props to first column.
+
 export default function IKProjectFocusCard() {
   return (
     <div className='focusCardContainer'>
