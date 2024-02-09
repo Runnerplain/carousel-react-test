@@ -1,0 +1,64 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "name": "ObiWan",
+        "picture": "./src/assets/pictures/picture1.jpg",
+        "data": {
+            "title": "ObiWan",
+            "tag": "#tag1",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima beatae quae distinctio aliquid odit provident praesentium, eum quisquam ab dolore!",
+            "techs": "Technos utilisées",
+            "techData" : []
+        }
+      },
+      {
+        "id": 2,
+        "name": "Yaddle",
+        "picture": "./src/assets/pictures/picture2.jpg",
+        "data": {
+            "title": "Yaddle",
+            "tag": "#tag1",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima beatae quae distinctio aliquid odit provident praesentium, eum quisquam ab dolore!",
+            "techs": "Technos utilisées",
+            "techData" : []
+        }
+      },
+      {
+        "id": 3,
+        "name": "Rosten",
+        "picture": "./src/assets/pictures/picture3.jpg",
+        "data": {
+            "title": "Rosten",
+            "tag": "#tag1",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima beatae quae distinctio aliquid odit provident praesentium, eum quisquam ab dolore!",
+            "techs": "Technos utilisées",
+            "techData" : []
+        }
+      },
+      {
+        "id": 4,
+        "name": "Bilout",
+        "picture": "./src/assets/pictures/picture4.jpg",
+        "data": {
+            "title": "Bilout",
+            "tag": "#tag1",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima beatae quae distinctio aliquid odit provident praesentium, eum quisquam ab dolore!",
+            "techs": "Technos utilisées",
+            "techData" : []
+        }
+      },
+      {
+        "id": 5,
+        "name": "Chewi",
+        "picture": "./src/assets/pictures/picture5.jpg",
+        "data": {
+            "title": "Chewi",
+            "tag": "#tag1",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima beatae quae distinctio aliquid odit provident praesentium, eum quisquam ab dolore!",
+            "techs": "Technos utilisées",
+            "techData" : []
+        }
+      }
+    ]
+  }
