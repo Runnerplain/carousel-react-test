@@ -1,0 +1,7 @@
+.wrapper {
+    min-height: 100vh;
+    min-width: 100vw;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-around;
+}
