@@ -13,11 +13,12 @@
 
 
 
-img {
+.pictureMini {
     width: 100%;
 }
 
-p {
+.titlePicture {
+
     z-index: 1;
     position: absolute;
     top: 50%;
