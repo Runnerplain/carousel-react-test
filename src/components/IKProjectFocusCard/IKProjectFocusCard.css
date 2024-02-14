@@ -2,50 +2,88 @@
     border: 1px solid red;
     padding: 10px;
     position: relative;
-    width: clamp(750px, 45%, 1000px);
+    
 }
 
-.focusBox {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: clamp(500px, 100%, 720px);
+.focusCardContainer .focusBox {
+    margin-top: 50%;
+    height: auto;
+    width: clamp(300px, 40vw, 720px);
 }
 
-.pictureFocus {
+.focusCardContainer .focusBox .pictureFocus {
     display: block;
     width: 100%;
     height: auto;
     opacity: 0.3;
 }
 
-.__overlay {
-    position: absolute;
+.focusCardContainer .focusBox .__overlay {
+    /* position: absolute;
     top: 10%;
     bottom: 0;
-    left: 5%;
-    right: 0;
-    height: 100%;
-    width: 100%;
+    right: 0; */
+    /* height: 100%;
+    width: 100%; */
     transition: .5s ease;
     display: flex;
     flex-direction: column;
+    padding: 0 30px;
+    z-index: 30;
 }
 
-.__overlay > * {
+.focusCardContainer .focusBox .__overlay > * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.tagProjectFocusCard {
-    margin: 20px 0;
-    font-weight: bold;
-    font-size: 1em;
+.__overlay h3 {
+    font-size: clamp(1rem, -0.5rem + 2.6667vw, 2.5rem);
 }
 
-.descriptionFocusCard {
-    margin: 40px 0;
+.__overlay .tagProjectFocusCard {
+    margin: 20px 0;
+    font-weight: bold;
+    font-size: clamp(0.8rem, 0.1rem + 1.2444vw, 1.5rem);
+
 }
+
+.__overlay .descriptionFocusCard {
+    margin: 40px 0;
+    font-size: clamp(1rem, 0.5rem + 0.8889vw, 1.5rem);
+}
+
+.__overlay .techUsingFocusCard {
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: clamp(1rem, 0.5rem + 0.8889vw, 1.5rem);
+}
+
+.__overlay .logoTech {
+    display: flex;
+    gap: 30px;
+}
+
+.__overlay .logoTech svg {
+    width: clamp(1.875rem, 0.625rem + 2.2222vw, 3.125rem);
+}
+
+.__overlay button {
+    padding: 20px 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3CD6CE;
+    font-weight: bold;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+
+
+
+
 
 
 
