@@ -7,10 +7,10 @@ import ReactLogo from '../../assets/icons/ReactLogo'
 
 export default function IKProjectFocusCard() {
   return (
-    <div className='focusCardContainer'>
-      <div className="focusBox">
-        <img className='pictureFocus' src={picture2} alt="" />
-        <div className="__overlay">
+    <div className='columnFocusCardContainer'>
+      <div className="focusCard">
+        <img className='pictureFocusCard' src={picture2} alt="" />
+        <div className="content">
           <h3 className='titleProjectFocusCard'>Projet 1</h3>
           <p className='tagProjectFocusCard'>#tag1</p>
           <p className='descriptionFocusCard'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima beatae quae distinctio aliquid odit provident praesentium, eum quisquam ab dolore!</p>
@@ -20,9 +20,9 @@ export default function IKProjectFocusCard() {
             <NextLogo />
             <ReactLogo /> 
           </div>
-          <button>Découvrir le projet</button>
         </div>
       </div>
+        <button className='btnFocusCardDiscover'>Découvrir le projet</button>
     </div>
   )
 }
